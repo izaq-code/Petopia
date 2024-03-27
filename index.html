@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petopia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body id="index">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom navbar-custom" id="mainNav">
+            <div class="container px-4 d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="index.html"><img src="img/logo_petopia.png" width="260"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation" style="color: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="conteudos/cad_cliente.html">
+                                <span class="material-symbols-outlined" style="vertical-align: middle; ">login</span>
+                                <span style="vertical-align: middle;">Entrar</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" >
+                    <div class="slide-content">
+                        <img class="slide-image" src="./img/propaganda1.jpeg" alt="....." />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./img/propaganda2.jpg" alt="....." />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./img/propaganda3.jpg" alt="....." />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./img/propaganda4.gif" alt="....." />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./img/propaganda5.jpg" alt="....." />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./img/propaganda6.jpeg" alt="....." />
+                    </div>
+                </div>
+            </div>
+            <div  data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="cards-iniciais-container">
+            <div class="cards-iniciais-item">
+                <a href="conteudos/agendamento_pet.html">
+                    <div class="cards-iniciais-item-texto-p">Agendar</div>
+                    <div class="cards-iniciais-item-texto-consulta">Consulta</div>
+                </a>
+                <span class="cards-iniciais-circulo-consulta"></span>
+            </div>
+            <div class="cards-iniciais-item">
+                <a href="conteudos/cad_cliente.html">
+                    <div class="cards-iniciais-item-texto-p">Cadastrar</div>
+                    <div class="cards-iniciais-item-texto-cliente">Cliente</div>
+                </a>
+                <span class="cards-iniciais-circulo-cliente"></span>
+            </div>
+            <div class="cards-iniciais-item">
+                <a href="conteudos/cad_pet.html">
+                    <div class="cards-iniciais-item-texto-p">Cadastrar</div>
+                    <div class="cards-iniciais-item-texto-pet">PET</div>
+                </a>
+                <span class="cards-iniciais-circulo-pet"></span>
+            </div>
+        </div>
+
+        <div class="bichinhos">
+            <h4><span class="material-symbols-outlined">pets</span> Qual seu bichinho?</h4>
+            <div class="cards-bichinhos-item">
+                <a href="conteudos/compra-cachorro.html">
+                    <div class="item-bichinhos-imagem"><img src="img/cachorro.png"></div>
+                </a>
+                <div class="item-bichinhos-nome">Cachorro</div>
+            </div>
+            <div class="cards-bichinhos-item">
+                <a href="conteudos/compra-gato.html">
+                    <div class="item-bichinhos-imagem" id="gato-imagem"><img src="img/gato.png"></div>
+                </a>
+                <div class="item-bichinhos-nome">Gato</div>
+            </div>
+            <div class="cards-bichinhos-item">
+                <a href="conteudos/compra-lebre.html">
+                    <div class="item-bichinhos-imagem"><img src="img/lebre.png"></div>
+                </a>
+                <div class="item-bichinhos-nome">Coelho</div>
+            </div>
+            <div class="cards-bichinhos-item">
+                <a href="conteudos/compra-passarinho.html">
+                    <div class="item-bichinhos-imagem"><img src="img/passarinho.png"></div>
+                </a>
+                <div class="item-bichinhos-nome">Pássaro</div>
+            </div>
+            <div class="cards-bichinhos-item">
+                <a href="conteudos/compra-outros.html">
+                    <div class="item-bichinhos-imagem"><img src="img/outros.png"></div>
+                </a>
+                <div class="item-bichinhos-nome">Outros</div>
+            </div>
+        </div>
+
+        <div class="servicos">
+            <h4><span class="material-symbols-outlined">pets</span> Serviços</h4>
+            <div class="cards-servicos-item">
+                <div class="item-servicos-nome">Adote</div>
+                <div class="item-servicos-imagem"><img src="img/adote.png"></div>
+                <div class="item-servicos-desc">Dê um lar amoroso! Veja os bichinhos para adoção.</div>
+                <div class="item-servicos-preco">R$0,00</div>
+                <div class="item-servicos-acesse"><a href="conteudos/agendamento_pet.html">Confira!</a></div>
+            </div>
+            <div class="cards-servicos-item">
+                <div class="item-servicos-nome">Banho</div>
+                <div class="item-servicos-imagem"><img src="img/banho.png"></div>
+                <div class="item-servicos-desc">Limpeza e conforto para o seu bichinho.</div>
+                <div class="item-servicos-preco">R$50,00</div>
+                <div class="item-servicos-acesse"><a href="conteudos/agendamento_pet.html">Confira!</a></div>
+            </div>
+            <div class="cards-servicos-item">
+                <div class="item-servicos-nome">Tosa</div>
+                <div class="item-servicos-imagem"><img src="img/tosa.png"></div>
+                <div class="item-servicos-desc">Estilo e cuidado para a pelagem do seus bichinhos.</div>
+                <div class="item-servicos-preco">R$60,00</div>
+                <div class="item-servicos-acesse"><a href="conteudos/agendamento_pet.html">Confira!</a></div>
+            </div>
+            <div class="cards-servicos-item">
+                <div class="item-servicos-nome">Day Care</div>
+                <div class="item-servicos-imagem"><img src="img/daycare.png"></div>
+                <div class="item-servicos-desc">Diversão e cuidado para seu bichinho.</div>
+                <div class="item-servicos-preco">R$120,00</div>
+                <div class="item-servicos-acesse"><a href="conteudos/agendamento_pet.html">Confira!</a></div>
+            </div>
+            <div class="cards-servicos-item">
+                <div class="item-servicos-nome">Procedimentos</div>
+                <div class="item-servicos-imagem"><img src="img/procedimento.png"></div>
+                <div class="item-servicos-desc">Procedimentos para a saúde do seu bichinho.</div>
+                <div class="item-servicos-preco">R$200,00</div>
+                <div class="item-servicos-acesse"><a href="conteudos/agendamento_pet.html">Confira!</a></div>
+            </div>
+        </div>
+    </main>
+
+    <section class="footer">
+        <div class="footer-caixa">
+            <h2 id="petop">Petopia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic unde autem adipisci voluptatum provident
+                dignissimos pariatur molestiae culpa! Officia sequi optio qui illo corporis facilis vitae quia obcaecati
+                quaerat placeat.</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-caixa">
+            <h2>Suporte</h2>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Ajuda & suporte</a></li>
+            <li><a href="#">Retornar as politicas de privacidade</a></li>
+            <li><a href="#">Termos de uso</a></li>
+            <li><a href="#">Product</a></li>
+        </div>
+
+        <div class="footer-caixa">
+            <h2>Ver guia</h2>
+            <li><a href="#">Caracteristicas</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Blog de posts</a></li>
+            <li><a href="#">Nossas filiais</a></li>
+            <li><a href="#">Product</a></li>
+        </div>
+
+        <div class="footer-caixa">
+            <h3>Contatos</h3>
+            <div class="contato">
+                <span><i class='bx bxs-map'></i>123 Belo Horizonte, Brazil</span>
+                <span><i class='bx bxs-phone'></i>(31)98635-3434</span>
+                <span><i class='bx bxs-envelope'></i>petopia@clinica.com</span>
+            </div>
+        </div>
+
+    </section>
+    <script src="conteudos/index.js"></script>
+    <script>
+        initSlider({
+            autoPlay: false,
+            startAtIndex: 0,
+            timeInterval: 2000,
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Outfit;
+}
+
+.cad {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px darkgray;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.column {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select {
+    border: none;
+    margin-top: 8px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    outline: none;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background: #1ec396;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.lembre-me {
+    margin: 10px;
+    font-size: 13px;
+    width: 100%;
+    color: #1ec396;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #1ec396;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #52d4b1;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    padding: 12px;
+    background: linear-gradient(to right, #abe6d5, #1ec396);
+    border-radius: 23px;
+}
+
+h5 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+a{
+    color: #1ec396; 
+ }
+
+ 
